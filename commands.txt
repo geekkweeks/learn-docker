@@ -1,0 +1,8 @@
+Copy from host -> container
+- docker cp path_host docker_name:/path_inside_container
+
+Run image and remove the container as well when the container stopped
+- docker run -p host:container -d --rm container_id/container_name
+
+Run docker with given name
+- docker run -p host:container --name container_name -d --rm container_id/container_name
